@@ -1,18 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'logintry.dart';
-// import 'pages/homepage.dart';
-// import 'pages/product.dart';
+//import 'pages/product.dart';
 
 void main() {
-  runApp(myApp());
+  runApp(const myApp());
 }
-
-// void navigateNextPage(BuildContext context) {
-//   Navigator.of(context).push(MaterialPageRoute(builder: (_) {
-//     return Homepage(1);
-//   }));
-// }
 
 // ignore: camel_case_types
 class myApp extends StatelessWidget {
@@ -26,7 +19,7 @@ class myApp extends StatelessWidget {
         primarySwatch: Colors.red, //fabulous
       ),
       home: LoginPage(),
-      //home: const ProductPage(1),
+      //home: const ProductPage(5),
       debugShowCheckedModeBanner: false,
     );
   }
