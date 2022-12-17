@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:food_app/pages/homepage.dart';
-import 'package:vertical_card_pager/vertical_card_pager.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -158,7 +157,7 @@ class _LoginPageState extends State<LoginPage> {
                     Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: const [
-                          Padding(padding: EdgeInsets.fromLTRB(0, 170, 0, 0)),
+                          Padding(padding: EdgeInsets.fromLTRB(0, 100, 0, 0)),
                           Text('Registrati ora!',
                               style: TextStyle(
                                   color: Color.fromARGB(255, 158, 11, 0),
